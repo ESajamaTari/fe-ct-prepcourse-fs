@@ -182,12 +182,9 @@ function tablaDelSeis() {
    var array = []
 
    for(var i = 0; i < 11; i++) {
-   array[i] = 6*i
-   
-} 
-
-return array
-
+   array [i] = 6*i
+   } 
+      return array
 }
 
 function mayorACien(array) {
@@ -233,16 +230,16 @@ function continueStatement(num) {
    // se continua con la siguiente iteración.
    // [PISTA]: utiliza el statement 'continue'.
    // Tu código:
-   let aux = [];
+   let resultado = [];
 
    for(let i = 0; i < 10; i++) { 
       if(i === 5) {
          continue
       }
       num += 2;
-      aux.push(num)
+      resultado.push(num)
    }
-   return aux
+   return resultado
 }
 
 /*⚠️ NO MODIFIQUES NADA DEBAJO DE ESTO ⚠️*/
